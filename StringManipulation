@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class StringManipulation{
+ public static void main(string [] args){
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter the string:")
+  string s=sc.nextLine();
+  
+  System.out.println("1.length: "+s.length());
+  System.out.println("2.UpperCase: "+s.toUpperCase());
+  System.out.println("3.LowerCase: "+s.toLowerCase());
+  System.out.println("4.First Character: "+s.charAt(0));
+  System.out.println("5.Substring: "+s.substring(1));
+  System.out.println("6.Replace 'a' with '@': "+s.replace('a',@));
+  System.out.println("7.Contains 'java': " + s.contains("java"));
+  System.out.println("8.Trimmed string: " + s.trim());
+  System.out.println("9.Starts with H: " + s.startsWith("H")); 
+  System.out.println("10.Ends with o: " + s.endsWith("o"));
+}
+} 
