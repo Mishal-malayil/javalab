@@ -7,7 +7,7 @@ public class searchArray{
 		System.out.println("Enter number of elements:");
 		int n =sc.nextInt();
 		int[] arr=new int[n];
-		System.out.println("Enter " + n +"elements:");
+		System.out.println("Enter " + n + "elements:");
 		for(int i=0;i<n;i++){
 			arr[i]=sc.nextInt();
 		}
@@ -16,7 +16,7 @@ public class searchArray{
 		boolean found =false;
 		for(int i=0;i<n;i++){
 			if(arr[i]==key){
-				System.out.println("Element found at index:" +i);
+				System.out.println("Element found at index:" + i);
 				found = true;
 				break;
 			}
