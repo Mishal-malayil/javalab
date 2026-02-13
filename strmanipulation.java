@@ -5,50 +5,50 @@ public class strmanipulation {
 
         Scanner sc = new Scanner(System.in);
 
-        // Reading strings
+        
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine();
 
         System.out.print("Enter second string: ");
         String s2 = sc.nextLine();
 
-        // 1. length()
+        // length()
         System.out.println("Length of first string: " + s1.length());
 
-        // 2. concat()
+        //  concat()
         System.out.println("Concatenation: " + s1.concat(s2));
 
-        // 3. charAt()
+        //  charAt()
         System.out.println("Character at index 0 of first string: " + s1.charAt(0));
 
-        // 4. getChars()
+        //  getChars()
         char[] ch = new char[5];
         s1.getChars(0, 5, ch, 0);
         System.out.print("getChars() output: ");
         System.out.println(ch);
 
-        // 5. compareTo()
+        //  compareTo()
         System.out.println("compareTo result: " + s1.compareTo(s2));
 
-        // 6. equals()
+        //  equals()
         System.out.println("equals result: " + s1.equals(s2));
 
-        // 7. equalsIgnoreCase()
+        //  equalsIgnoreCase()
         System.out.println("equalsIgnoreCase result: " + s1.equalsIgnoreCase(s2));
 
-        // 8. contains()
+        //  contains()
         System.out.println("First string contains second? " + s1.contains(s2));
 
-        // 9. indexOf()
+        //  indexOf()
         System.out.println("Index of first character of second string in first: " + s1.indexOf(s2));
 
-        // 10. toUpperCase()
+        // toUpperCase()
         System.out.println("Uppercase: " + s1.toUpperCase());
 
-        // 11. toLowerCase()
+        // toLowerCase()
         System.out.println("Lowercase: " + s1.toLowerCase());
 
-        // 12. replace()
+        //  replace()
         System.out.println("Replace 'a' with 'x': " + s1.replace('a', 'x'));
 
         // Type Conversions
