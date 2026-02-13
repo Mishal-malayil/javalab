@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class LargestOfThree {
     public static void main(String[] args) {
         int a, b, c;
