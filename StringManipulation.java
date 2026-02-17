@@ -7,7 +7,6 @@ public class StringManipulation {
 
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
-
         System.out.println("Length: " + s.length());          
         System.out.println("Uppercase: " + s.toUpperCase());  
         System.out.println("Lowercase: " + s.toLowerCase()); 
