@@ -2,8 +2,7 @@ import java.util.Scanner;
 public class searchArray{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
-
-		System.out.println("Enter number of elements:");
+        System.out.println("Enter number of elements:");
 		int n =sc.nextInt();
 		int[] arr=new int[n];
 		System.out.println("Enter " + n + "elements:");
