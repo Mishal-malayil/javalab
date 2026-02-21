@@ -50,7 +50,7 @@ public class product {
                   p3.display();
                   }
 
-                  sc.close();
+                  
     }
 }
 		
