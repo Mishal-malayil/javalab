@@ -5,13 +5,11 @@ class StringSorter {
     String arr[];
     int n;
     Scanner sc = new Scanner(System.in);
-
     // Constructor
     StringSorter(int n) {
         this.n = n;
         arr = new String[n];
     }
-
     // Read strings
     void readStrings() {
         System.out.println("Enter strings:");
