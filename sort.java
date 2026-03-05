@@ -77,7 +77,7 @@ public class sort {
 
             choice = sc.nextInt();
 
-            switch (choice) {
+	    switch (choice) {
 
                 case 1:
                     obj.builtInSort();
