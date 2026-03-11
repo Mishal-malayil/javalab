@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class CPU {
 
     double price;   // CPU attribute
