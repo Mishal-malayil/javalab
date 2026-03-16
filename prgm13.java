@@ -47,7 +47,6 @@ public class Program13 {
     public static void main(String[] args) {
 
         Result r = new Result();
-
         r.getStudentData();
         r.getSportsScore();
         r.display();
