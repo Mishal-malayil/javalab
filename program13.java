@@ -13,7 +13,6 @@ class Person {
         this.age = age;
     }
 }
-
 // Derived class from Person
 class Employee extends Person {
     int empId;
