@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 // Base class
 class Person {
     String name, gender, address;
