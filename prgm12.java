@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 // Base class
 class Employee {
     int empid;
