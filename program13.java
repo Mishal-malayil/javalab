@@ -28,7 +28,6 @@ class Employee extends Person {
         this.salary = salary;
     }
 }
-
 // Derived class from Employee
 class Teacher extends Employee {
     String subject, department;
