@@ -3,6 +3,7 @@ class CPU {
 
     double price;   // CPU attribute
 
+    
     // Constructor
     CPU(double price) {
         this.price = price;
